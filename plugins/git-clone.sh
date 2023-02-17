@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /opt/gitplugins/cronicle
+mkdir -p /opt/gitplugins/cronicle && cd /opt/gitplugins/cronicle
 git pull https://github.com/pauldcunningham/cronicle.git
 mkdir -p /opt/cronicle/bin/custom
 chmod +x /opt/gitplugins/cronicle/plugins/*
