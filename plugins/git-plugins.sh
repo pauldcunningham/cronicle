@@ -2,6 +2,7 @@
 
 WKDIR=`mktemp -d`
 cd $WKDIR
+mkdir repo
 git clone $HTTP_GIT_PATH repo
 mkdir -p /opt/croncile/bin/custom
 cp repo/plugins/* /opt/cronicle/bin/custom
