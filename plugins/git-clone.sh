@@ -5,5 +5,5 @@ mkdir -p /opt/gitplugins && cd /opt/gitplugins
 cd cronicle
 git pull
 mkdir -p /opt/cronicle/bin/custom
-chmod +x cronicle/plugins/*
-cp cronicle/plugins/* /opt/cronicle/bin/custom
+chmod +x /opt/gitplugins/cronicle/plugins/*
+cp /opt/gitplugins/cronicle/plugins/* /opt/cronicle/bin/custom
