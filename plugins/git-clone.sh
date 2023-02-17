@@ -1,9 +1,7 @@
 #!/bin/bash
 
-mkdir -p /opt/gitplugins && cd /opt/gitplugins
-#git remote add -f origin https://github.com/pauldcunningham/cronicle.git
-cd cronicle
-git pull
+cd /opt/gitplugins/cronicle
+git pull https://github.com/pauldcunningham/cronicle.git
 mkdir -p /opt/cronicle/bin/custom
 chmod +x /opt/gitplugins/cronicle/plugins/*
 cp /opt/gitplugins/cronicle/plugins/* /opt/cronicle/bin/custom
