@@ -10,4 +10,4 @@ mkdir -p /opt/cronicle/bin/custom
 cp repo/plugins/* /opt/cronicle/bin/custom
 chmod +x /opt/cronicle/bin/custom/*
 
-echo 1
+echo '{ "complete": 1 }'
