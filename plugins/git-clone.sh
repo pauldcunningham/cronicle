@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#mkdir -p /opt/gitplugins && cd /opt/gitplugins
+mkdir -p /opt/gitplugins && cd /opt/gitplugins
 #git remote add -f origin https://github.com/pauldcunningham/cronicle.git
 cd cronicle
 git pull
